@@ -368,22 +368,22 @@ end)
 
 UICorner_19.Parent = Cartoony
 
-Ninja.Name = "Ninja"
+Ninja.Name = "Bubbly"
 Ninja.Parent = PlayerTab
 Ninja.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Ninja.Position = UDim2.new(-0.00265264511, 0, 0.510869443, 0)
 Ninja.Size = UDim2.new(0, 165, 0, 41)
 Ninja.Font = Enum.Font.Arial
-Ninja.Text = "Ninja"
+Ninja.Text = "Bubbly"
 Ninja.TextColor3 = Color3.fromRGB(0, 0, 0)
 Ninja.TextSize = 14.000
 Ninja.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/Fuz1on1/Scripts/main/Ninja%20Animation",true))();
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Fuz1on1/Scripts/main/Bubbly%20Animation",true))();
 end)
 
 UICorner_20.Parent = Ninja
 
-Elder.Name = "Elder"
+Elder.Name = "Stylish"
 Elder.Parent = PlayerTab
 Elder.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Elder.Position = UDim2.new(0.453580737, 0, 0.505434632, 0)
@@ -393,37 +393,37 @@ Elder.Text = "Elder"
 Elder.TextColor3 = Color3.fromRGB(0, 0, 0)
 Elder.TextSize = 14.000
 Elder.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/Fuz1on1/Scripts/main/Elder%20Animation",true))();
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Fuz1on1/Scripts/main/Stylish%20Animation",true))();
 end)
 
 UICorner_21.Parent = Elder
 
-Sytlish.Name = "Sytlish"
+Sytlish.Name = "No Jump Cooldown"
 Sytlish.Parent = PlayerTab
 Sytlish.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Sytlish.Position = UDim2.new(0.453580737, 0, 0.777173877, 0)
 Sytlish.Size = UDim2.new(0, 165, 0, 41)
 Sytlish.Font = Enum.Font.Arial
-Sytlish.Text = "Stylish"
+Sytlish.Text = "No Jump Cooldown"
 Sytlish.TextColor3 = Color3.fromRGB(0, 0, 0)
 Sytlish.TextSize = 14.000
 Sytlish.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/Fuz1on1/Scripts/main/Stylish%20Animation",true))();
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Fuz1on1/Scripts/main/No%20Jump%20Cooldown",true))();
 end)
 
 UICorner_22.Parent = Sytlish
 
-Bubbly.Name = "Bubbly"
+Bubbly.Name = "Ninja"
 Bubbly.Parent = PlayerTab
 Bubbly.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Bubbly.Position = UDim2.new(-0.00265264511, 0, 0.777173758, 0)
 Bubbly.Size = UDim2.new(0, 165, 0, 41)
 Bubbly.Font = Enum.Font.Arial
-Bubbly.Text = "Bubbly"
+Bubbly.Text = "Ninja"
 Bubbly.TextColor3 = Color3.fromRGB(0, 0, 0)
 Bubbly.TextSize = 14.000
 Bubbly.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/Fuz1on1/Scripts/main/Bubbly%20Animation",true))();
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Fuz1on1/Scripts/main/Ninja%20Animation",true))();
 end)
 
 UICorner_23.Parent = Bubbly
